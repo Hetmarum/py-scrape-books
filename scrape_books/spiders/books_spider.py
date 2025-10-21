@@ -1,5 +1,5 @@
 import scrapy
-from requests import Response
+from scrapy.http import Response
 
 
 class BooksSpiderSpider(scrapy.Spider):
